@@ -172,3 +172,12 @@ hr {
     height: 100%;
     border-radius: 50%;
 }
+
+/* meetup times */
+
+#times {
+    background: url('../images/dublin-city.webp') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+}
