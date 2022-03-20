@@ -56,6 +56,13 @@ h1, h2 {
 
 /* hero image */
 
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 #hero-image {
     height: 600px;
     width: 100%;
@@ -86,13 +93,6 @@ h1, h2 {
     color: #fff;
 }
 
-#hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
     from {
@@ -101,4 +101,27 @@ h1, h2 {
     to {
         transform: scale(1.1);
     }
+}
+
+/* club ethos */
+
+#club-ethos {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
 }
