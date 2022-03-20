@@ -197,3 +197,24 @@ hr {
 #times h2 {
     color: #fafafa;
 }
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials > li {
+    display: inline;
+}
+
+.socials i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
